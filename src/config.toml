@@ -1,6 +1,7 @@
 baseURL = 'https://serabikocorbuyuni.my.id/'
 languageCode = 'en-us'
 title = 'Serabi Kocor Bu Yuni'
+theme = 'serabi'
 icon = "/favicon.ico"
 
 enableEmoji = true
@@ -16,12 +17,8 @@ expiryDate = ["expiryDate"]
 
 copyright = 'This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
 
-
-[outputs]
-    home = ["HTML", "RSS", "JSON"]
-
 [sitemap]
-  changefreq = 'daily'
+  changefreq = 'monthly'
   filename = 'sitemap.xml'
   priority = 0.5
 
@@ -51,3 +48,18 @@ identifier = "Album"
 name = "ialbum"
 url = "#album"
 weight = 5
+# [[menu.follow]]
+# identifier = "@serabikocorbuyuni"
+# name = "fb"
+# url = "https://facebook.com/serabikocorbuyuni"
+# weight = 1
+# [[menu.follow]]
+# identifier = "@serabikocorbuyuni"
+# name = "ig"
+# url = "https://instagram.com/serabikocorbuyuni"
+# weight = 2
+# [[menu.follow]]
+# identifier = "@serabikocorbuyuni"
+# name = "tw"
+# url = "https://twitter.com/serabibuyuni"
+# weight = 3

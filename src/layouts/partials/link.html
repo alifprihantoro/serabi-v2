@@ -1,4 +1,5 @@
+<!-- html -->
 {{ if eq hugo.Environment "development" }}
-<script src="/dev/js/cdn.js"></script>
-<script src="/dev/js/tailwind.config.js"></script>
+<script src="{{ (resources.Get "dev/cdn.js").RelPermalink }}"></script>
+<script src="{{ (resources.Get "dev/tailwind.config.js").RelPermalink }}"></script>
 {{ end }}
