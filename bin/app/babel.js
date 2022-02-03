@@ -3,18 +3,20 @@ import babel from '@babel/core'
 
 // file params
 let js_file=[
-  './assets/js/main.js',
-  './assets/js/ts.js',
+  '../src/assets/js/main.js',
+  '../src/assets/js/ts.js',
+  '../src/assets/js/tambah.js',
 ]
 // merger code
-let source=[]
+let data=[]
 
 // read file and push to source
 js_file
   .forEach(e=>{
     // console.log(e)
-    source.push(fs.readFileSync(e,'utf8'))
+    data.push(fs.readFileSync(e,'utf8'))
 })
+let source=data.join('')
 // console.log(source)
 
 // Load and compile file normally, but skip code generation.
@@ -32,4 +34,4 @@ const { code, map } = babel.transformFromAstSync(ast, source, {
 // console.log(code)
 
 // write result to file/folder destination
-fs.writeFileSync('assets/main.js', code);
+fs.writeFileSync('../src/assets/main.js', code);
