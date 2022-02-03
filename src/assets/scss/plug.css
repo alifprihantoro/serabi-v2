@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+.where-is{
+  background: red;
+}
+.this-my-body{
+  div{
+    color: red;
+  }
+  background: green;
+}

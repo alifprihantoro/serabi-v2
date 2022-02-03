@@ -1,7 +1,6 @@
 baseURL = 'https://serabikocorbuyuni.my.id/'
 languageCode = 'en-us'
 title = 'Serabi Kocor Bu Yuni'
-theme = 'serabi'
 icon = "/favicon.ico"
 
 enableEmoji = true

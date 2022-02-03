@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+.lah{
+  color: magenta;
+}
+@layer base {
+  .myhead {
+    div{
+       @apply bg-red cl-white;
+    }
+    @apply text-2xl bg-red-800;
+  }
+}

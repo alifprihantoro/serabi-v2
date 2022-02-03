@@ -6,7 +6,7 @@ rm static/*
 hugo server &
 HUGOSERVE=$!
 # babel
-node app/bin/babel &
+node bin/app/babel &
 # watch
-node app/bin/watch &
+node bin/app/watch &
 MYWATCHFILE=$!

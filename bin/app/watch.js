@@ -2,10 +2,10 @@ import * as chokidar from 'chokidar'
 import { exec } from 'child_process';
 
 // compile
-exec('node app/bin/babel')
+// exec('node app/babel')
 
 // chokidar config
-const watcher = chokidar.watch(['assets/js'], {
+const watcher = chokidar.watch(['~/zzz/web/serabi-v2/src/'], {
   ignored: /(^|[\/\\])\../, // ignore dotfiles
   ignoreInitial: true,
 });
@@ -24,4 +24,3 @@ watcher
     exec('node app/bin/babel')
     console.log(`File ${path} has been added`)
   });
-

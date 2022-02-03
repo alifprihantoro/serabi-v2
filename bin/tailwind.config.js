@@ -1,3 +1,3 @@
 module.exports = {
-  content: ["./src/layouts/**/*.html"],
+  content: ["*.html"],
 }

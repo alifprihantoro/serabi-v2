@@ -3,9 +3,9 @@ import babel from '@babel/core'
 
 // file params
 let js_file=[
-  '../src/assets/js/main.js',
-  '../src/assets/js/ts.js',
-  '../src/assets/js/tambah.js',
+  '../src/assets/dev/js/main.js',
+  '../src/assets/dev/js/ts.js',
+  '../src/assets/dev/js/tambah.js',
 ]
 // merger code
 let data=[]
