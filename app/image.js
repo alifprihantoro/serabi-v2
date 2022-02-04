@@ -33,5 +33,5 @@ function fromDir(startPath, filter) {
     }
   }
 }
-fromDir("./src/assets/dev/img/", ".png");
+fromDir("./src/static/img/", ".png");
 // console.log(mypath)
