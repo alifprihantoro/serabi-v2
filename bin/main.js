@@ -1,1 +1,0 @@
-"use strict";console.log("ini main js");var ini="hai";console.log("hai"),console.log("jojojo");

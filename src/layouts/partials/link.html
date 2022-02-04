@@ -1,5 +1,9 @@
 <!-- html -->
+{{ $js := slice 
+(resources.Get "js/main.js")
+(resources.Get "js/tambah.js")
+| resources.Concat "js/bundle.js" | minify }}
+<script src="{{ $js.RelPermalink }}"></script>
 {{ if eq hugo.Environment "development" }}
-<script src="{{ (resources.Get "dev/cdn.js").RelPermalink }}"></script>
-<script src="{{ (resources.Get "dev/tailwind.config.js").RelPermalink }}"></script>
+<!-- js -->
 {{ end }}

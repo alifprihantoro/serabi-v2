@@ -1,4 +1,4 @@
-<nav>
+<nav >
     <ul>
             {{ range .Site.Menus.nav.Sort.ByWeight }}
             <li class='{{.Identifier | lower}}'><a href="{{.URL}}"><span class="{{ .Name }}"></span>{{.Identifier}} </a></li>
