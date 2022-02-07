@@ -1,7 +1,10 @@
-rm public
-hugo
-rm resources &
 # babel
-node app/bin/babel-prod &
+node app/babel.mjs &
+# image
+node app/image.js &
+# hugo
+rm src/public
+hugo --minify -s src
+rm resources &
 # style
-npx assets/scss/main.css -o public/main.css
+npx src/assets/scss/main.css -o public/main.css &
