@@ -34,11 +34,22 @@ rm pakage.json
 npm init
 npm i -G 
 ```
-copy this code to pakage json
-```javascript
 
-```
-or use alias :
+use alias :
 ```bash
-
+# my dev
+alias dev='
+cdg
+source app/dev.sh
+'
+# my dev stop
+alias stop='
+cdg
+source app/stop.sh
+'
+# my prod
+alias dev='
+cdg
+source app/prod.sh
+'
 ```
