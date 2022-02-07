@@ -1,2 +1,1 @@
-console.log('ini main ')
-const ini = 'ha'
+console.log('hello world')

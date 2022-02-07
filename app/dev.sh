@@ -1,5 +1,5 @@
 # tailwind
-npx postcss src/assets/scss/main.scss -o main.css --watch &
+npx postcss src/assets/scss/main.scss -o src/static/main.css --watch &
 TAILWINDW=$!
 # hugo start
 hugo server -s src &
