@@ -48,7 +48,7 @@ cdg
 source app/stop.sh
 '
 # my prod
-alias dev='
+alias prod='
 cdg
 source app/prod.sh
 '
